@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      
+
+      .card1, .card2, .card3{
+        width: 200px;
+        display: inline-block;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        margin-right: 20px;
+        margin-left: 5px;
+      }
+
+
+      .profile-picc{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .add-friend,
+      .other-container p{
+        /* margin-top: 0px;
+        margin-bottom: 0px; */
+        margin-left: 10px;
+      }
+
+      .user{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+
+      .friends{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 14px;
+        color: rgb(105, 105, 105);
+      }
+
+      .add-friend{
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="containerr">
+      <div class="card1">
+        <img class="profile-picc" src="thumbnails/thumbnail-1.webp" alt="image">  
+        <div class="other-container">
+          <p class="user">Oliver</p>
+          <p class="friends" >2 mutual friends</p>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="card2">
+        <img class="profile-picc" src="thumbnails/thumbnail-2.webp" alt="image">  
+        <div class="other-container">
+          <p class="user">Mimi</p>
+          <p class="friends" >3 mutual friends</p>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+
+      <div class="card3">
+        <img class="profile-picc" src="thumbnails/thumbnail-1.webp" alt="image">  
+        <div class="other-container">
+          <p class="user">Rex</p>
+          <p class="friends" >4 mutual friends</p>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

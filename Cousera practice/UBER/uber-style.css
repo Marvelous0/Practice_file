@@ -1,0 +1,80 @@
+body{
+  border: none;
+  margin: 0%;
+}
+
+.container{
+  border: 1px solid red;
+}
+
+
+.top-nav-bar{
+  display: flexbox;
+  font-size: medium;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 12px;
+}
+
+.logo{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  font-size: 20px;
+  padding: auto;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.company{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: 0.20s;
+}
+
+.company:hover{
+  background-color: rgb(71, 71, 71);
+  border-radius: 20px;
+}
+
+.safety{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: 0.20s;
+}
+
+.safety:hover{
+  background-color: rgb(71, 71, 71);
+  border-radius: 20px;
+}
+
+.help{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: 0.20s;
+}
+
+.help:hover{
+  background-color: rgb(71, 71, 71);
+  border-radius: 20px;
+}

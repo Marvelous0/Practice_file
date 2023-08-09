@@ -1,0 +1,43 @@
+.home-page{
+  color: rgb(0, 113, 133);
+}
+
+.shoe-description{
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+}
+
+.shoe-price{
+  font-weight: bolder;
+  font-size: 18px;
+  color: rgb(0, 118, 0);
+}
+
+.free-delivery{
+  font-weight: bold;
+}
+
+.cart-button{
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 30px;
+  width: 120px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.buy-button{
+  background-color: rgb(255, 164, 28);
+  color: black;
+  height: 30px;
+  width: 120px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
