@@ -5,6 +5,7 @@
   </head>
   <body>
     <script>
+      /*
       //logical operators
       //AND - the left side must correspond with true with the right. 
       console.log(true && true);
@@ -16,8 +17,7 @@
       //NOT - this will change the true to true - flipping. 
       console.log(!true)
 
-
-      /*
+      
       console.log(4 > 8);
 
       if(true){
@@ -53,7 +53,18 @@
       } else{
         console.log('You can not drive');
       }
-      */     
+      */    
     </script>
+    <button onclick="
+      //Ternary operators.
+      const randomNumber = Math.random();
+      const result = randomNumber < 0.5 ? 'heads' : 'tails';
+
+      const guess = 'heads';
+      console.log(guess === result ? 'You win!' : 'You lose!');
+    ">You fit play</button>
+     
+
+    
   </body>
 </html>
